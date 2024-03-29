@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SocialButton from './SocialButton';
 import Formulario from './Formulario';
 import Alert from './Alert';
+import './Registro.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Registro = () => {
@@ -41,7 +42,8 @@ const Registro = () => {
   
   
     return (
-      <div className="container my-5">
+    
+      <div className="container my-5 fondo-container">
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="card p-4">
