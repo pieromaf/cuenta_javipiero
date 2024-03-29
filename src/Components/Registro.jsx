@@ -43,10 +43,10 @@ const Registro = () => {
   
     return (
     
-      <div className="container my-5 fondo-container">
+      <div className="container my-5">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <div className="card p-4">
+            <div className="card p-4 fondo-container">
               <h1 className="text-center mb-3">Crea una cuenta</h1>
               <div className="text-center mb-3">
               <SocialButton icon="facebook" />
