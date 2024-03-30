@@ -34,7 +34,7 @@ const Registro = () => {
       }
   
       
-      setAlertMessage('Registro exitoso. ¡Bienvenido!');
+      setAlertMessage('Registro exitoso. ¡Bienvenido');
       setAlertType('success');
       
     
